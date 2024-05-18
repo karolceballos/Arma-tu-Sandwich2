@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'holamundo';
+  persona: string = "Alice Alisson";
+
+  credits: string[] = [
+    "Alice Alisson",
+    "Bob Bobson",
+    "Carla Carlson"
+  ];
+
+
 }

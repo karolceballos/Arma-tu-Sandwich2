@@ -1,0 +1,21 @@
+.select-container{
+    display: flex;
+
+}
+  select {
+    width: 99px;
+    height: 89px;
+    margin-left: 7px;
+  }
+  
+  .buttons-container {
+    margin-top: 30px;
+    margin-left: 7px;
+   
+  }
+  
+  .buttons-container button{
+    display: block;
+   
+}
+

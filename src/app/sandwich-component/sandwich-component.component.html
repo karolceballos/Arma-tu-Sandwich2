@@ -1,0 +1,13 @@
+<div class = "select-container">   
+    <select multiple  id="comtizq"size="4"[(ngModel)] = "selectizq">
+        <option [value]="item" *ngFor="let item of comidaizq; let i = index">{{item}}</option>
+     </select>
+    <div class="buttons-container">
+      <button (click)="agregar()" >Agregar ➡</button>
+      <button (click)="eliminar()">⬅ remover</button>
+  </div>
+  <select multiple   id="comtDer" size = 4 [(ngModel)] = "selectder">
+    <option [value]="item" *ngFor="let item of comidader">{{item}}</option>
+  </select>
+
+  </div>
